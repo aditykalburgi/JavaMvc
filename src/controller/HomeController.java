@@ -5,7 +5,7 @@ import framework.ViewRenderer;
 import com.sun.net.httpserver.HttpExchange;
 
 import java.io.IOException;
-public class HomeController {
+public class HomeController implements Controller{
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {

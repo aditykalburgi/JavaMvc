@@ -12,7 +12,7 @@ public class ViewRenderer {
 
         byte[] bytes =html.getBytes(StandardCharsets.UTF_8);
 
-        exchange.getResponseBody()
+        exchange.getResponseHeaders()
                 .set("Content- type ", "text/html; charset=UTF_8");
 
         exchange.sendResponseHeaders(200,bytes.length);
