@@ -1,5 +1,4 @@
-package Server;
-import com.sun.net.httpserver.HttpExchange;
+package server;
 import com.sun.net.httpserver.HttpServer;
 import framework.Dispatcher;
 
